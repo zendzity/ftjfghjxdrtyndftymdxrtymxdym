@@ -1,0 +1,103 @@
+local DiscordLib =
+    loadstring(game:HttpGet "https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/discord")()
+
+local win = DiscordLib:Window("Discord")
+
+local serv = win:Server("fortnite.lua", "")
+
+local rage = serv:Channel("Rage")
+
+rage:Button(
+    "Lock",
+    function()
+        DiscordLib:Notification("Notification", "Lock", "Key = q")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/fdf"))()
+    end
+)
+
+rage:Button(
+    "Streamable",
+    function()
+        DiscordLib:Notification("Notification", "Lock", "Key = t")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/str"))()
+    end
+)
+
+
+rage:Button(
+    "Camlock",
+    function()
+        DiscordLib:Notification("Notification", "Camlock", "Key = Q, Disable Key = P")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/t"))()
+    end
+)
+
+rage:Button(
+    "ESP",
+    function()
+        DiscordLib:Notification("Notification", "ESP", "Enabled")
+    end
+)
+
+
+local blatant = serv:Channel("Blatant")
+
+blatant:Button(
+    "CFrame",
+    function()
+        DiscordLib:Notification("Notification", "CFrame", " Key = Z, Press [ to speed up press ] to slow down")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/c"))()
+    end
+)
+
+blatant:Button(
+        "CFrame Guns Fix",
+        function()
+            DiscordLib:Notification("Notification", "CFrame Guns Fix", "Guns Fixed")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/fix"))()
+        end
+)
+
+blatant:Button(
+        "Titan",
+        function()
+            DiscordLib:Notification("Notification", "Titan", "Enabled")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/fix"))()
+        end
+)
+
+blatant:Button(
+    "Anti Aim",
+    function()
+        DiscordLib:Notification("Notification", "Anti Aim", "Key = J")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/c"))()
+    end
+)
+
+blatant:Button(
+    "Fat",
+    function()
+        DiscordLib:Notification("Notification", "Fat", "This is not permanant")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/fffasefsrhdrfttgjn%20WSETredxktjzertjse"))()
+    end
+)
+
+local legit = serv:Channel("Legit")
+
+legit:Button(
+    "Autoclicker",
+    function()
+        DiscordLib:Notification("Notification", "Autoclicker", " Key = V ")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/atocl"))()
+    end
+)
+
+legit:Button(
+    "Fake Macro (Glitches guns while using it)",
+    function()
+        DiscordLib:Notification("Notification", "Fake Macro", " Key = X")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/zendzity/ftjfghjxdrtyndftymdxrtymxdym/main/rffffffg"))()
+    end
+)
+
+
